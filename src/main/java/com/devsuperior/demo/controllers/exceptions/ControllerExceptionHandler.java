@@ -1,7 +1,8 @@
 package com.devsuperior.demo.controllers.exceptions;
 
-import com.hakkinenT.dscatalog.services.exceptions.DatabaseException;
-import com.hakkinenT.dscatalog.services.exceptions.ResourceNotFoundException;
+
+import com.devsuperior.demo.services.exceptions.DatabaseException;
+import com.devsuperior.demo.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
